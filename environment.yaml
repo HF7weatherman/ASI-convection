@@ -1,0 +1,37 @@
+name: ASI-conv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - aiohttp
+  - cartopy
+  - cmocean
+  - dask
+  - dask-jobqueue
+  - easygems
+  - fastparquet
+  - h5py
+  - healpy
+  - intake<2
+  - intake-xarray<2
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - netCDF4
+  - numpy
+  - pip
+  - requests
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - xarray
+  - zarr>=3
+  - pip:
+    - gribscan
+    - pyicon-diagnostics
+    - -e <local_path>/grid_toolbox --config-settings editable_mode=compat
+    - -e <local_path>/hfplot --config-settings editable_mode=compat
+    - -e <local_path>/hfutils --config-settings editable_mode=compat
+    - -e <local_path>/pycompo --config-settings editable_mode=compat
+    - -e .

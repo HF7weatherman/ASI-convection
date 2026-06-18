@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TRR181L4"
+authors = [
+    {name = "Henning Franke, MPI-M"},
+    {name = "Cathy Hohenegger, MPI-M"},
+    {name = "Xuanyu Chen, CIRES, University of Colorado"},
+    {name = "Divya Sri Praturi, MPI-M"},
+] 
+version = "0.1.0"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
