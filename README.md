@@ -1,4 +1,6 @@
-# Postprocessing and analysis scripts used in Franke et al. (2026): Local modification of tropical precipitation by small-scale air-sea interactions in km-scale climate models, submitted to the *Journal of the Atmospheric Sciences*
+# Code to reproduce Figures in Franke et al. (2026, JAS)
+**Reference publication:**
+H. Franke et al. (2026): Local modification of tropical precipitation by small-scale air-sea interactions in km-scale climate models, submitted to the *Journal of the Atmospheric Sciences*
 
 ## Before you start
 Clone the following repositories to your local machine:
